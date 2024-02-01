@@ -1,0 +1,1 @@
+This is a Story Telling Game which uses AI to generate stories given the world in which the user wants to play in. The game ends when the player wants it to end, when he succesfully completes the quest or fails to do so. It uses the OpenAI api to generate and analyze outputs/inputs.
