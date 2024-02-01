@@ -43,7 +43,7 @@ while True:
     print(f"\n\t{narration}")
     if re.search('THE END', narration):
         break
-    if re.search("q[uit]{0,3}", get_user_choice()):
+    if re.search(r'^\b*q(uit)?\b*$', get_user_choice().lower()):
         break
 
 print("\nThanks for playing the game!\n")
